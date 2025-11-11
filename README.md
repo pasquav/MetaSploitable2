@@ -18,3 +18,18 @@ Repositório para fins didáticos utilizando 2 VM's a primeira com Kali linux e 
  
   -Notem que devemos fazer isto para ambas as maquinas, caso contrário não iremos enxergá-las na rede.
   
+## Configuradas as maquinas iremos iniciar os testes.
+- Devemos acessar nossa maquina do metasploitable com o usuário e senha padrão msfadmin para descobrir o ip dela afim de sabermos o ip que iremos atacar.
+- Após descoberto o ip vamos para nosso Kali abrir o terminal e acessar nosso Metasploit.
+  - Para isso vamos acessar o terminal como root e usar o comando msfdb init para iniciar nossa base de dados
+  - Agora dentro do metasploit vamos usar os seguintes comandos para obter informações sobre nossa maquina:
+  -  db_nmap -sS 192.168.56.102  (IP do meu alvo)
+   <img width="828" height="577" alt="image" src="https://github.com/user-attachments/assets/6d2282fd-0786-49cb-ba98-0a23af41d0b7" />
+
+  -  db_nmap -sV 192.168.56.102
+  <img width="805" height="628" alt="image" src="https://github.com/user-attachments/assets/04c4f22e-4ff6-4dfc-a81e-0ad956b1d3a4" />
+  
+  -  Com essas informações já saberemos as porta que iremos atacar e qual a versão dos softwares nessas portas
+ 
+  -  Agora vamos abrir o msfconsole e pesquisar pela versão do ftp que iremos testar.
+  - 
