@@ -15,5 +15,6 @@ Repositório para fins didáticos utilizando 2 VM's a primeira com Kali linux e 
 
 5º Vamos configurar as redes das maquinas virtuais para que elas consigam se enxergar na rede sem que tenham acesso a internet para evitar problemas pois iremos trabalhar com uma maquina que está cheia de vulnerabilidades expostas.
   -Na maquina que queremos alterar vamos clicar com o botão direito e ir em configurações, depois em rede vamos deixar desta maneira. <img width="913" height="538" alt="image" src="https://github.com/user-attachments/assets/c9807870-fcf3-4dc2-b478-032b9b640e81" />
+ 
   -Notem que devemos fazer isto para ambas as maquinas, caso contrário não iremos enxergá-las na rede.
   
